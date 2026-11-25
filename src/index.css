@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-rubik: "Rubik", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #9333ea; /* purple-600 */
+  --color-primary-light: #a855f7; /* purple-500 */
+  --color-secondary: #2dd4bf; /* teal-400 */
+  --color-secondary-light: #5eead4; /* teal-300 */
+  --color-accent: #fce7f3; /* pink-100 */
+  --color-accent-dark: #ec4899; /* pink-500 */
+}
+
+body {
+  font-family: var(--font-rubik);
+}
